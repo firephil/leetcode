@@ -1,3 +1,3 @@
 # leetcode solutions to interesting problems
 
-### Anagrams
+### Check if two words are Anagrams
