@@ -63,13 +63,46 @@ def add2Numbers(l1: ListNode, l2: ListNode): ListNode = {
    head.next
 }
 
+// solution using optionals and patter matching
+def addTwoNumbersOptionals(l1: ListNode, l2: ListNode): ListNode = {
 
+    def addTwoNumbers_(n1: ListNode, n2: ListNode, carry: Int): ListNode = {
+        (Option(n1), Option(n2)) match {
+            case (Some(num1), Some(num2)) =>
 
+                val sum = num1.x + num2.x + carry
+                val rem = sum % 10
+                val newCarry = sum / 10
 
+                new ListNode(rem, addTwoNumbers_(num1.next, num2.next, newCarry))
+
+            case (Some(num), None) =>
+
+                val sum = num.x + carry
+                val rem = sum % 10
+                val newCarry = sum / 10
+
+                new ListNode(rem, addTwoNumbers_(num.next, null, newCarry))
+
+            case (None, Some(num)) =>
+
+                val sum = num.x + carry
+                val rem = sum % 10
+                val newCarry = sum / 10
+
+                new ListNode(rem, addTwoNumbers_(null, num.next, newCarry))
+
+            case (None, None) =>
+                if(carry != 0) new ListNode(carry) else null
+        }
+    }
+
+    addTwoNumbers_(l1, l2, 0)
+    }
 
 @main 
 def hello() = 
     val l1 = ListNode(2, ListNode(4, ListNode(3)))
     val l2 = ListNode(5, ListNode(6, ListNode(4)))
-    val res = add2Numbers (l1,l2)
+    val res = addTwoNumbersOptionals (l1,l2)
     res.foreach(print)
