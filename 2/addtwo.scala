@@ -63,7 +63,7 @@ def add2Numbers(l1: ListNode, l2: ListNode): ListNode = {
    head.next
 }
 
-// solution using optionals and patter matching
+// Recursive solution using optionals and patter matching
 def addTwoNumbersOptionals(l1: ListNode, l2: ListNode): ListNode = {
 
     def addTwoNumbers_(n1: ListNode, n2: ListNode, carry: Int): ListNode = {
