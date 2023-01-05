@@ -1,2 +1,5 @@
 *.tasty
 *.class
+.metals
+.vscode
+__pycache__
