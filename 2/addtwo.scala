@@ -96,7 +96,6 @@ def addTwoNumbersOptionals(l1: ListNode, l2: ListNode): ListNode = {
                 if(carry != 0) new ListNode(carry) else null
         }
     }
-
     addTwoNumbers_(l1, l2, 0)
     }
 
