@@ -1,0 +1,65 @@
+2023.01.05 08:43:57 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\DEV\leetcode\.metals\lsp.trace.json or C:\Users\phili\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.05 08:43:58 INFO  logging to file C:\DEV\leetcode\.metals\metals.log
+2023.01.05 08:43:58 INFO  Started: Metals version 0.11.10 in workspace 'C:\DEV\leetcode' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/phili/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.05 08:44:08 INFO  time: initialize in 10s
+2023.01.05 08:44:10 WARN  Build server is not auto-connectable.
+2023.01.05 08:44:10 WARN  no build tool detected in workspace 'C:\DEV\leetcode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.05 08:44:10 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+Jan 05, 2023 8:44:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.01.05 08:44:53 INFO  no build target found for C:\DEV\leetcode\2\addtwo.scala. Using presentation compiler with project's scala-library version: 3.2.1
+Jan 05, 2023 8:44:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Jan 05, 2023 8:44:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2023.01.05 08:44:53 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 08:44:55 INFO  time: code lens generation in 44s
+2023.01.05 08:44:55 INFO  time: code lens generation in 2.02s
+2023.01.05 08:44:55 INFO  time: code lens generation in 2.07s
+2023.01.05 08:44:55 INFO  time: code lens generation in 2.09s
+2023.01.05 08:44:55 INFO  time: code lens generation in 2.03s
+2023.01.05 08:44:55 INFO  time: code lens generation in 2.08s
+2023.01.05 08:45:02 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 08:46:02 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 08:47:28 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 08:48:17 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 08:50:25 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 08:52:34 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:06:15 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:08:49 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:10:02 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:11:30 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:12:15 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:12:57 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:13:10 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:14:32 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:15:10 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:23:59 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:27:24 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:27:42 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:28:02 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+Jan 05, 2023 9:33:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1349
+2023.01.05 09:34:07 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+Jan 05, 2023 9:35:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1497
+2023.01.05 09:35:58 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:37:19 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:41:41 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:48:14 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:48:39 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+Jan 05, 2023 9:50:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1907
+2023.01.05 09:50:25 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 09:55:08 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+Jan 05, 2023 10:04:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2048
+2023.01.05 10:05:30 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 10:21:27 WARN  no build target for: C:\DEV\leetcode\2\addtwo.scala
+2023.01.05 12:07:13 INFO  shutting down Metals
